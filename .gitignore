@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+
+# Local Claude Code permission grants
+.claude
+
+
+# SSH host private key — never publish
+host_key
+
+# Captured attacker credentials and session transcripts
+logs/
+
+# Symlink into the local ollama blob store
+models/
